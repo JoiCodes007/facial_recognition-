@@ -1,36 +1,49 @@
+body{
+    display: grid;
+    grid-template-columns: 20vw 60vw 20vw;
+
+}
 h1{
+    grid-column: 2/3;
     text-align: center;
     color:rgb(30, 12, 110)
 }
 h2{
+    grid-column: 2/3;
     text-align: center;
 }
 p{
+    grid-column: 2/3;
     text-align: center;
 }
 a:hover{
     color:rgb(167, 161, 255)
 }
 img{
+    grid-column: 2/3;
     width: 65%;
     margin-left: auto;
     margin-right: auto;
     display: block;
 }
 #caption{
+    grid-column: 2/3;
     font-size: small;
     color:rgb(58, 58, 58);
     text-align: center;
 }
 ol.suggestions {
-    display: inline-block;
+    grid-column: 2/3;
+    /* display: inline-block; */
     text-align: left;
 }
 ul.resources {
-    display: inline-block;
+    grid-column: 2/3;
+    /* display: inline-block; */
     text-align: left;
 }
 
 div.list{
+    grid-column: 2/3;
     text-align: center;    
 }
