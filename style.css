@@ -1,3 +1,7 @@
+@media screen and (max-width: 459px) {
+    
+
+
 body{
     display: grid;
     grid-template-columns: 20vw 60vw 20vw;
@@ -69,3 +73,5 @@ button{
     position: fixed
     
 }
+}
+/* Going to add media tag for laptop/desktop */
